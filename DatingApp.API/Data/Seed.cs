@@ -17,6 +17,7 @@ namespace DatingApp.API.Data
         {
             var userData = System.IO.File.ReadAllText("Data/UserSeedData.json");
             var users = JsonConvert.DeserializeObject<List<User>>(userData);
+            _context.Users.RemoveRange(_context.Users);
             foreach (var user in users)
             {
                 byte[] passwordHash, passwordSalt;
