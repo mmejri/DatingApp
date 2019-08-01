@@ -38,5 +38,11 @@ loggedIn() {
   return ! this.helper.isTokenExpired(token);
 }
 
+getCurrentUserId() {
+  if (this.decodedToken) {
+    return this.decodedToken.nameid;
+  }
+}
+
 
 }

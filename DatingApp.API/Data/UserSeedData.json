@@ -17,6 +17,11 @@
           "url": "https://randomuser.me/api/portraits/women/17.jpg",
           "isMain": true,
           "description": "Proident sit consectetur exercitation eu nisi exercitation voluptate dolore veniam."
+        },
+        {
+          "url": "https://randomuser.me/api/portraits/women/18.jpg",
+          "isMain": true,
+          "description": "Proident sit consectetur exercitation eu nisi exercitation voluptate dolore veniam."
         }
       ]
     },

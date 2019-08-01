@@ -60,6 +60,8 @@ namespace DatingApp.API.Controllers
             return Ok(new {
                 token = tokenHandler.WriteToken(token)
             });
+            //var userFromRepo = await _repo.GetUser(202);
+            //return NoContent();
 
 
         }
